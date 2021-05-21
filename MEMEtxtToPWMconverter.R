@@ -51,9 +51,4 @@ for (i in df$V1){ #FOR EACH LINE IN DATAFRAME
   
 }
 
-#HAHA YOU THOUGHT WE WERE DONE....
-#for (i in out$X.MEME.version.5.1.1.){
-  #
-#}
-
 write.csv(out, "C:/Users/Caleb/Desktop/Bioinformatics 3000/Final Report/MEMEmotifPWM.meme", quote = F, row.names = F)
